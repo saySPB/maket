@@ -1,24 +1,24 @@
 .body {
-    width: 1350px;
+    width: 1440px;
+    height: 900px;
     padding: 0;
     margin: 0;
 }
-.leftblock {
-    width: 1050px;
-    margin: 0 auto;
+.wrapper {
+
     font-family: 'montserrat', 'quicksand';
     font-size: 19px;
-    display: flex;
-    margin-top: 145px;
     align-items: center;
     line-height: 28px;
+    margin: 150px 0 150px 150px;
 
 }
 .list_square {
+    float: left;
 
 }
 .colors {
-
+    float: left;
 }
 .square100 {
     width: 70px;
@@ -97,31 +97,63 @@
 }
 
 .right-side {
-    display: inline-flex;
+    float: right;
+    margin-right: 158px;
 }
 .text-list {
+    
+    line-height: 29px;
+    font-family: 'montserrat';
 }
 .text-h1 {
+    font-size: 24px;
+    margin-bottom: 51px;
+    line-height: 29px;
 }
 .text-h2 {
+    font-size: 19px;
+    margin-bottom: 51px;
+    line-height: 23px;
 }
 .text-h3 {
+    font-size: 12px;
+    margin-bottom: 51px;
+    line-height: 15px;
 }
 .text-body {
+    font-size: 14px;
+    line-height: 24px;
 }
 .list-tittle {
+    float: right;
+    color: rgba(31, 32, 65, 0.25);
 }
 .first {
-}
+    margin-right: 30px;
+    text-align: center;
+
+    font-family: 'montserrat';
 
 }
-.text-h1 {
+
+.first-h1 {
+    margin-bottom: 80px;
+    font-size: 24px;
+    line-height: 29px;
 }
-.text-h2 {
+.second-h2 {
+    margin-bottom: 74px;
+    font-size: 19px;
+    line-height: 23px;
 }
-.text-h3 {
+.third-h3 {
+    margin-bottom: 50px;
+    font-size: 12px;
+    line-height: 15px;
 }
 .text-body {
+    font-size: 14px;
+    line-height: 24px;
 }
 .list-tittle {
 }
