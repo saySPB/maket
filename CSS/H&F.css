@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+header {
+    width: 100%;
+    display: flex;
+}
+.header__logo {
+    margin: 15px 13px 15px 140px;
+}
+.header__logo__toxin {
+    margin: 29px 0 29px 0;
+}
+body {
+    background: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+.topnav {
+    margin-left: 285px;
+    margin-top: 26px;
+    margin-bottom: 26px;
+}
+.topnav a{
+    text-decoration: none;
+
+    line-height: 17px;
+    text-align: center;
+    color: rgba(31, 32, 65, 0.5);
+    margin-right: 20px;
+}
+.enter {
+    border-radius: 22px;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #BC9CFF;
+}
+.main__image {
+    width: 100%;
+}
