@@ -15,6 +15,14 @@ header {
 .header__logo {
     margin: 15px 13px 15px 140px;
 }
+.list__footer {
+    display: flex;
+    margin-bottom: 10px;
+}
+.header__logo__tox {
+    margin-top: 13px;
+    margin-left: 13px;
+}
 .header__logo__toxin {
     margin: 29px 0 29px 0;
 }
@@ -26,24 +34,68 @@ body {
 .topnav {
     margin-left: 285px;
     margin-top: 26px;
-    margin-bottom: 26px;
+  
 }
-.topnav a{
+.topnav .lists{
     text-decoration: none;
 
     line-height: 17px;
     text-align: center;
     color: rgba(31, 32, 65, 0.5);
     margin-right: 20px;
+
 }
-.enter {
+.fa {
+    color:  rgba(31, 32, 65, 0.5);
+}
+.btn__enter {
     border-radius: 22px;
+    font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     font-size: 12px;
     line-height: 15px;
-    text-transform: uppercase;
     color: #BC9CFF;
+    border: 2px solid #BC9CFF;
+    padding: 9px 20px 10px 20px;
+    width: 87px;
+    text-transform: uppercase;
+    margin: 20px 20px 20px 20px;
+}
+.btn__signin {
+    border-radius: 22px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    color: #BC9CFF;
+    padding: 9px 20px 10px 20px;
+    width: 87px;
+    text-transform: uppercase;
+    color: white;
+    background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
 }
 .main__image {
     width: 100%;
+}
+.fa {
+    color: rgba(31, 32, 65, 0.5);
+    font-family: "FontAwesome";
+    margin-left: 5px;
+}
+footer {
+    padding-top: 104px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 0px rgba(31, 32, 65, 0.1);
+    margin-left: 140px;
+}
+.text__footer {
+    width: 260px;
+    height: 72px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(31, 32, 65, 0.75);
+    
 }
