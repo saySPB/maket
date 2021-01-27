@@ -15,10 +15,14 @@ header {
 .header__logo {
     margin: 15px 13px 15px 140px;
 }
-.list__footer {
-    display: flex;
-    margin-bottom: 10px;
+.header__logos {
+    margin: 0 50px 20px 140px;
 }
+.img__tox {
+    padding-bottom: 12px;
+    margin-left: 5px;
+}
+
 .header__logo__tox {
     margin-top: 13px;
     margin-left: 13px;
@@ -30,6 +34,7 @@ body {
     background: white;
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
+
 }
 .topnav {
     margin-left: 285px;
@@ -74,9 +79,7 @@ body {
     color: white;
     background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
 }
-.main__image {
-    width: 100%;
-}
+
 .fa {
     color: rgba(31, 32, 65, 0.5);
     font-family: "FontAwesome";
@@ -86,16 +89,79 @@ footer {
     padding-top: 104px;
     background: #FFFFFF;
     box-shadow: 0px 1px 0px rgba(31, 32, 65, 0.1);
-    margin-left: 140px;
+
 }
 .text__footer {
     width: 260px;
     height: 72px;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 24px;
     color: rgba(31, 32, 65, 0.75);
-    
+
+}
+.wrapper__footer {
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+}
+.footer__nav {
+
+    list-style: none; /*убираем маркеры списка*/
+    margin: 0; /*убираем верхнее и нижнее поле, равное 1em*/
+    padding-left: 0; /*убираем левый отступ, равный 40px*/
+  }
+
+ .footer__nav li {
+    margin-bottom: 20px;
+    margin-right: 70px;
+  }
+  .mydef {
+      display: flex;
+      float: left;
+      margin: 26px 0 26px 140px;
+      
+  }
+  .mydef p{
+      margin-right: 681px;
+  }
+  .mydef img {
+    width: 24px;
+    height: 24px;
+    margin-right: 20px;
+  }
+  .special__offer {
+      margin-top: 20px;
+      margin-bottom: 20px;
+      font-size: 14px;
+    line-height: 24px;
+/* or 171% */
+  }
+.wrapper__footer a {
+    color: rgba(31, 32, 65, 0.75);
+}
+.wrapper__footer .h2__foot {
+    color: black;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+
+}
+
+.header__logos p {
+    margin-top: 15px;
+}
+.email__form {
+    width: 260px;
+    height: 44px;
+    border: 1px solid rgba(31, 32, 65, 0.25);
+    box-sizing: border-box;
+    border-radius: 4px;
+    color: rgba(31, 32, 65, 0.25);
+
+}
+input{
+    padding: 0 20px;
 }
