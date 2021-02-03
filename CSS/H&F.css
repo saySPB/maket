@@ -28,7 +28,7 @@ header {
     margin-left: 13px;
 }
 .header__logo__toxin {
-    margin: 29px 0 29px 0;
+    margin: 29px 0 0 0;
 }
 body {
     background: white;
@@ -170,6 +170,7 @@ footer {
     margin-top: 15px;
 }
 .email__form {
+    position: relative;
     width: 260px;
     height: 44px;
     border: 1px solid rgba(31, 32, 65, 0.25);
@@ -178,6 +179,13 @@ footer {
     color: rgba(31, 32, 65, 0.25);
 
 }
+.footer__nav__list .material-icons {
+    position: absolute;
+    left: 1280px;
+    top: 1216px;
+    color: #BC9CFF;
+    }
+
 input{
     padding-left: 15px;
     width: 150px;
@@ -220,11 +228,42 @@ input{
     line-height: 18px;
     border: 1px solid rgba(31, 32, 65, 0.25);
     color: rgba(31, 32, 65, 0.75);
+    width: 160px;
+}
+.booking .two {
 
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 18px;
+    border: 1px solid rgba(31, 32, 65, 0.25);
+    color: rgba(31, 32, 65, 0.75);
+    width: 160px;
+}
+.find__room {
+    width: 320px;
+    height: 44px;
+
+    /* Primary Gradient */
+    margin-top: 31px;
+    background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+    border-radius: 22px;
+    font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+font-family: 'Montserrat', sans-serif;
+text-align: center;
+text-transform: uppercase;
+
+color: #FFFFFF;
+    
 }
 
 input::-webkit-calendar-picker-indicator {
     opacity:0;
+
   }
   
   input {
@@ -240,8 +279,41 @@ input::-webkit-calendar-picker-indicator {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     position:absolute;
-    right:0;
+    right: 10px;
     top:50%;
-    transform:translateY(-50%);
-    
+    transform:translateY(-50%);   
+    color: rgba(31, 32, 65, 0.5); 
   }
+.friends {
+    width: 320px;
+    height: 44px;
+    border: 1px solid rgba(31, 32, 65, 0.25);
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+.arrive {
+    word-spacing: 80px;
+    text-transform: uppercase;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    color: #1F2041;;
+    margin-bottom: 5px;
+    margin-top: 21px;
+}
+.booking .material-icons {
+    position: absolute;
+    left: 320.74px;
+    top: 227.56px;
+    color: rgba(31, 32, 65, 0.5);
+
+}
+.find__room .material-icons {
+    position: absolute;
+    left: 320px;
+    top: 303px;
+    color: white;
+
+}

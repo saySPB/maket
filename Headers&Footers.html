@@ -7,6 +7,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/font-awesome.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
 </head>
 <body>
     <header>
@@ -30,19 +32,23 @@
                 <p class="content">Лучшие номера для вашей работы,<br> отдыха и просто вдохновения
                 </p>
                 <div class="findnumber__main">
-                    <div class="booking">
+                    <form class="booking">
                         <div class="tittle__input"><h4>Найдём номера под<br> ваши пожелания</h4></div> 
-                        <div class="arrive">прибытие</div>
-                        <div class="lieved">Выезд</div>
+                        <div class="arrive">прибытие выезд</div>
                         <div class="first">
                             <input type="date" class="one">
-                            <input type="date" class="one">
+                            <input type="date" class="two">
                         </div>
-
-                        <h2>гости</h2>
-                        <input type="text">
-                        <button></button>
-                    </div>
+                        
+                        <h4 class="arrive">гости</h4>
+                        <input type="text" class="friends" placeholder="Cколько гостей"><span class="material-icons">
+                            keyboard_arrow_down
+                            </span>
+                        <button class="find__room">подобрать номер<span class="material-icons">
+                            arrow_forward
+                            </span></button>
+                        
+                    </form>
 
                 </div>
             </div>
@@ -93,8 +99,9 @@
                     </li>
                     <li class="special__offer"><a href="#">Получайте специальные<br>предложения и новости сервиса</a></li></h2>
                 </ul>
-                <input type="email" class="email__form" placeholder="Email" list="mailList">
-                <i class="fa fa-arrow-right" aria-hidden="true"></i></p>
+                <input type="email" class="email__form" placeholder="Email" list="mailList"><span class="material-icons">
+                    arrow_forward
+                    </span>
             </div>
 
         </div>
